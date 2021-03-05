@@ -1,0 +1,107 @@
+
+#reactbody{
+	
+}
+
+.table {
+	
+	background-image:url("./img/mainbg.jpg");
+	background-size:cover;
+	margin:auto;
+	
+	background:white;
+	
+}
+.thead {
+	font-weight: bold;
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+.tbody {
+	width:100%;
+}
+.trow {
+	width:100%;
+}
+
+.tcell{
+  padding: 20px;
+}
+
+.title{
+	
+	height:150px;
+	background-color:#400c5e;
+	color:white;
+	font-family: sans-serif;
+	font-size:2em;
+	
+}
+
+.title p{
+	text-align:center;
+}
+.searchbox {
+	background-image:url("./img/mainbg.jpg");
+	background-size:auto;
+	height:100px;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.innerbox {
+	position:relative;
+
+	background-color:#c6ecd9;
+	height:80%;
+	width:60%;
+	border-radius: 25px;
+}
+.searchoption {
+	border-radius: 25px;
+	position:absolute;
+	top:5%;
+	left:5px;
+	height:90%;
+	width:30%;
+	/* background-color:white; */
+
+}
+.displayoption {
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.displayoption input{
+	font-size:20px;
+	border-radius: 25px;
+}
+
+.searchinput {
+	position:absolute;
+	display:inline-block;
+	top:25%;
+	left:30%;
+	width:50%;
+	height:50%;
+	
+}
+.searchinput :nth-child(1) {
+	width:50%;
+	
+	
+}
+.searchinput :nth-child(2) {
+	width:30;
+	
+}
+.searchinput input{
+
+	border-radius: 25px;
+	font-size:20px;
+}
+
+

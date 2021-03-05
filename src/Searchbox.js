@@ -1,5 +1,5 @@
 import React from 'react'
-import './Searchresult.css'
+//import './Searchresult.css'
 
 
 export default class Searchbox extends React.Component {
@@ -15,7 +15,7 @@ export default class Searchbox extends React.Component {
 						</div>
 					</div>
 					<div class = "searchinput">
-						<input type="text" placeholder="Enter name.." />
+						<input type="text" placeholder="   Enter ..." />
 						<input type="button" value="Search"/>
 					</div>	
 				</div>
